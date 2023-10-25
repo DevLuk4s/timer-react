@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import "./Timer.scss";
+import "./Time.scss";
 
-export default function Timer() {
+export default function Time() {
   const [seconds, setSeconds] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [hours, setHours] = useState(0);
@@ -52,10 +52,16 @@ export default function Timer() {
         {String(hours).padStart(2, "0")}:{String(minutes).padStart(2, "0")}:
         {String(seconds).padStart(2, "0")}
       </h1>
-      <div>
-        <button onClick={start}>Iniciar</button>
-        <button onClick={stop}>Pausa</button>
-        <button onClick={reset}>Redefinir</button>
+      <div className="row">
+        <button className="green" onClick={start}>
+          Iniciar
+        </button>
+        <button className="red" onClick={stop}>
+          Pausa
+        </button>
+        <button className="yellow" onClick={reset}>
+          Redefinir
+        </button>
       </div>
     </div>
   );

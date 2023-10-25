@@ -1,0 +1,39 @@
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
+  h1 {
+    font-size: 9rem;
+    color: orange;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    button {
+      padding: 20px 50px;
+      margin: 10px;
+      color: white;
+      border: none;
+      border-radius: 2rem;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+  }
+}
