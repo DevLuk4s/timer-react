@@ -1,8 +1,5 @@
-# React + Vite
+<h1>Calculadora em React</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+link da calculadora: [https://calculadora-react-ten-alpha.vercel.app/](https://timer-react-pink.vercel.app/)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![timer-react](https://github.com/DevLuk4s/timer-react/assets/114165245/e2414578-652f-4975-826a-ab3679da29af)
