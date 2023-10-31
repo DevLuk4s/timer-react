@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react";
+import { FiPlay } from "react-icons/fi";
+import { CiStop1 } from "react-icons/ci";
+import { VscDebugRestart } from "react-icons/vsc";
 import "./Time.scss";
 
 export default function Time() {
@@ -54,13 +57,13 @@ export default function Time() {
       </h1>
       <div className="row">
         <button className="green" onClick={start}>
-          Iniciar
+          <FiPlay className="icone-grande" />
         </button>
         <button className="red" onClick={stop}>
-          Pausa
+          <CiStop1 className="icone-grande" />
         </button>
         <button className="yellow" onClick={reset}>
-          Redefinir
+          <VscDebugRestart className="icone-grande" />
         </button>
       </div>
     </div>
